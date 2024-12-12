@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://wallpapers.com/images/hd/4k-ultra-hd-christmas-balls-pjggd8qd6jb0clq2.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+    background: rgb(rgb(239, 4, 4), rgb(11, 231, 11), rgb(19, 19, 241));
+    width: 340px;
+    padding: 30px;
+    border-radius: 8px;
+    border: solid 2px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 20px 0;
+    color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.acceso-titulo{
+    margin-bottom: 30px;
+}
+
+.caja-entrada{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.caja-entrada input{
+    width: 100%;
+    padding: 10px 16px 10px 38px;
+    border-radius: 8px;
+    border: solid 2px #fff;
+    background: rgba(7, 226, 215, 0.477);
+    outline: none;
+    caret-color: rgb(236, 9, 9);
+    color: #fff;
+    font-weight: 500;
+    transition: 0.25;
+}
+
+.caja-entrada input:focus{
+    border: solid 3px rgb(255, 255, 255, 0.25);
+}
+
+.caja-entrada input::placeholder{
+    color: rgb(255, 255, 255, 0.75);
+}
+
+.caja-entrada input::-ms-reveal{
+    filter: invert(100%);
+}
+
+.caja-entrada i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+    color: rgb(255, 255, 255, 0.75);
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.caja-entrada input+i{
+    color: #fff;
+}
+
+.recuerdame{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.recuerdame h5{
+    font-weight: normal;
+}
+
+.recuerdame{
+    display: flex;
+    gap: 5px
+}
+
+button:hover{
+    background-color: #fff1;
+    color: #fff;
+    outline: 20%;
+    cursor: pointer;
+}
+
+button{
+    padding: 2px;
+}
